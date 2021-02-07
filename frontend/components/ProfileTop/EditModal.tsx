@@ -26,9 +26,6 @@ const Container = styled.div`
 const EditBox = styled.div`
   display: flex;
   width: 300px;
-  /* height: 30px; */
-  /* margin-left: 14px;
-  margin-top: 16px; */
   justify-content: space-between;
 `;
 
@@ -44,14 +41,12 @@ const Xbutton = styled.div`
 
 const EditTitle = styled.div`
   display: flex;
-  /* justify-content: center; */
   font-weight: bold;
   width: 100px;
   height: 20px;
   position: absolute;
   top: 22px;
   left: 22px;
-  /* margin-top: 5px; */
 `;
 
 const ImgBox = styled.div`
@@ -83,7 +78,6 @@ const InputName = styled.input`
   ::placeholder {
     font-size: 15px;
   }
-  /* font-size: 12px; */
   :focus {
     outline: none;
   }
@@ -108,9 +102,7 @@ const InputNickname = styled.input`
   align-items: center;
   padding: 2px 10px;
   ::placeholder {
-    /* font-size: 12px; */
   }
-  /* font-size: 12px; */
   :focus {
     outline: none;
   }
@@ -127,7 +119,6 @@ const BioTitle = styled.div`
 const InputBio = styled.textarea`
   display: flex;
   width: 300px;
-  /* height: 90px; */
   margin: 5px 0px;
   border: solid 2px ${color.gray.default};
   border-radius: 4px;
@@ -135,9 +126,7 @@ const InputBio = styled.textarea`
   align-items: center;
     padding: 6px 10px;
   ::placeholder {
-    /* font-size: 12px; */
   }
-  /* font-size: 12px; */
   :focus {
     outline: none;
   }

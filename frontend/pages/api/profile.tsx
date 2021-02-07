@@ -26,6 +26,11 @@ export const ADD_TAGS = async (req) => {
     let status;
     let data;
 
+    // GET : 단순 데이터 조회 -> req. x
+    // POST : 데이터 생성용 ,create -> req. o
+    // PUT : update 같은 데이터 변경용 -> req. o
+    // DELETE : delete같읕 아이디 삭제용 -> req. x
+
     try {
       await axios
         .put(API_ROOT_URI + "/api/accounts/mytag", req, {
@@ -42,4 +47,13 @@ export const ADD_TAGS = async (req) => {
     }
     return { status: false };
   }
+
+
+};
+
+export const DELETE_TAGS = async () => {
+  const authToken = window.localStorage.getItem("authToken");
+  
+  console.log(authToken);
+  
 };

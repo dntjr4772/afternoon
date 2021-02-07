@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styled from "@emotion/styled";
 import UserCurating from "../../components/UserCurating"
+import Comment from "../../components/Comment"
 
 const Container = styled.div`
   position: relative;
@@ -59,6 +60,7 @@ const index = () => {
           // setEditState={setEditState}
           windowHeight={windowHeight}
         ></UserCurating>
+        <Comment userData={userData}></Comment>
       </Container>
     </>
   );

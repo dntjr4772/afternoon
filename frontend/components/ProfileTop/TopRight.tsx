@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import Button from "../Button";
 import color from "../../styles/theme";
 import Image from "next/image";
-import EditModal from "../../components/ProfileTop/EditModal";
+// import EditModal from "../../components/ProfileTop/EditModal";
 import ProfileTagBox from "../../components/ProfileTagBox";
 
 const TitleBox = styled.div`
